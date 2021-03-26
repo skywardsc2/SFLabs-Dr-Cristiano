@@ -1,0 +1,22 @@
+@import '@styles/variables';
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px 25px;
+
+    width: 260px;
+    height: 260px;
+
+    background: $white;
+
+    .icon {
+        width: 35px;
+        height: 30px;
+        
+        path {
+            fill: $color-secondary;            
+        }
+    }
+}
