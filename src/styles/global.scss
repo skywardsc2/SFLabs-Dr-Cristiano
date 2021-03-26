@@ -1,0 +1,18 @@
+@import './variables.scss';
+
+h1 {
+    font-size: 64px;
+    font-family: 'Roboto';
+    line-height: 30px;
+    color: $color-primary;
+}
+
+h2 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    
+    color: $color-secondary-highlight;
+}
