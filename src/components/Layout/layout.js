@@ -7,14 +7,10 @@
 
 import * as React from "react"
 
-import * as styles from './layout.module.scss'
+import * as layoutStyles from "./layout.module.scss"
 
-const Layout = (props) => {
-  return (    
-    <div className={styles.container}>
-      {props.children}
-    </div>
-  )
+const Layout = props => {
+    return <div className={layoutStyles.container}>{props.children}</div>
 }
 
 export default Layout

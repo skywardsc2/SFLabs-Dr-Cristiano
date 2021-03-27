@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react"
 
-import * as styles from './button.module.scss'
+import * as buttonStyles from "./button.module.scss"
 
-const Button = ({ label, onClick }) => {
+const Button = props => {
     return (
-        <button onClick={onClick} className={styles.button}>
-            <p className={styles.label}>{label}</p>
+        <button onClick={props.onClick} className={buttonStyles.button}>
+            <p className={buttonStyles.label}>{props.children}</p>
         </button>
     )
 }

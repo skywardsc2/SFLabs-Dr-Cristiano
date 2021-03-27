@@ -1,18 +1,19 @@
-import React from 'react'
+import React from "react"
 // import { StaticImage } from 'gatsby-plugin-image'
-import { Link } from 'gatsby'
+import { Link } from "gatsby"
 
 //Images
-import logoImg from '@images/logo_title.png'
+import logoImg from "@images/logo_title.png"
 
-import * as styles from './navBar.module.scss'
+import * as navBarStyles from "./navBar.module.scss"
 
 const NavBar = () => {
     return (
-        <header className={styles.header}>
-            <div className={styles.innerHeader}>
-
-                <Link to="/"><img className={styles.navBarLogo} src={logoImg} alt="Doctor's logo"/></Link>
+        <header className={navBarStyles.header}>
+            <div className={navBarStyles.innerHeader}>
+                <Link to="/">
+                    <img className={navBarStyles.navBarLogo} src={logoImg} alt="Doctor's logo" />
+                </Link>
                 <nav>
                     <Link to="/">Início</Link>
                     <Link to="/">Currículo</Link>

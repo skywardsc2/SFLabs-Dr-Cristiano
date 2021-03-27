@@ -4,19 +4,15 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 12px 25px;
+    padding: 10px 32px 32px;
 
     width: 260px;
-    height: 260px;
 
     background: $white;
 
-    .icon {
-        width: 35px;
-        height: 30px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
 
-        path {
-            fill: $color-secondary;
-        }
+    h3 {
+        text-align: center;
     }
 }

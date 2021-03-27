@@ -1,24 +1,23 @@
-import React from 'react'
+import React from "react"
 
-import '@styles/global.scss'
-import * as resumeStyles from './resumeCard.module.scss'
-import IconAcademic from '@images/svg/iconAcademic.inline.svg'
-import IconCertificate from '@images/svg/iconCertificate.inline.svg'
-import IconTeacher from '@images/svg/iconTeacher.inline.svg'
+import "@styles/global.scss"
+import * as resumeStyles from "./resumeCard.module.scss"
+import IconAcademic from "@images/svg/iconAcademic.inline.svg"
+import IconCertificate from "@images/svg/iconCertificate.inline.svg"
+import IconTeacher from "@images/svg/iconTeacher.inline.svg"
 
 const iconType = {
-    'academic': IconAcademic,
-    'certificate': IconCertificate,
-    'teacher': IconTeacher
+    academic: IconAcademic,
+    certificate: IconCertificate,
+    teacher: IconTeacher,
 }
 
-const ResumeCard = (props) => {
+const ResumeCard = props => {
     const Icon = iconType[props.icon]
     return (
         <div>
             <article className={resumeStyles.container}>
-                <Icon className={resumeStyles.icon} alt="Ícone"/>
-                {/* <IconAcademic/> */}
+                <Icon className={resumeStyles.icon} alt="Ícone" />
                 <p>{props.children}</p>
             </article>
         </div>

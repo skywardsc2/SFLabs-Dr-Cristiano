@@ -1,19 +1,20 @@
-import React from 'react'
+import React from "react"
 
-import '@styles/global.scss'
-import * as styles from "./coverSection.module.scss"
-import Button from '@components/Button/button'
+import "@styles/global.scss"
+import * as coverSectionStyles from "./coverSection.module.scss"
+import Button from "@components/Button/button"
 
 const CoverSection = () => {
     return (
         <div>
-            <section className={styles.container}>
-                <header className={styles.header}>
-                    <div className={styles.title}>
-                        <h1 className={styles.thin}>Dr. </h1><h1>Cristiano Barcellos</h1>
+            <section className={coverSectionStyles.container}>
+                <header className={coverSectionStyles.header}>
+                    <div className={coverSectionStyles.title}>
+                        <h1 className={coverSectionStyles.thin}>Dr. </h1>
+                        <h1>Cristiano Barcellos</h1>
                     </div>
                     <h2>Endocrinologia e Metabologia</h2>
-                    <Button onClick={() => {alert('Clicou!')}} label="AGENDAR CONSULTA"/>
+                    <Button onClick={() => {}}>AGENDAR CONSULTA</Button>
                 </header>
             </section>
         </div>

@@ -1,23 +1,23 @@
-@import '@styles/variables.scss';
+@import "@styles/variables.scss";
 
 .container {
-  position: relative;
-  width: 1440px;
-  min-width: 1440px;
-  margin: 0 auto;
-  
-  background: $color-primary-light;
+    position: relative;
+    width: 1440px;
+    min-width: 1440px;
+    margin: 0 auto;
 
-  @media (max-width: 1440px) {
-    width: 1280px;
-    min-width: 1280px;
-  }
-  @media (max-width: 1280px) {
-    width: 976px;
-    min-width: 976px;
-  }
-  @media (max-width: 976px) {
-    width: 768px;
-    min-width: 768px;
-  }
+    background: $color-primary-light;
+
+    @media (max-width: 1440px) {
+        width: 1280px;
+        min-width: 1280px;
+    }
+    @media (max-width: 1280px) {
+        width: 976px;
+        min-width: 976px;
+    }
+    @media (max-width: 976px) {
+        width: 768px;
+        min-width: 768px;
+    }
 }
