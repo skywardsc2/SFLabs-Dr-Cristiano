@@ -10,7 +10,11 @@ import * as React from "react"
 import * as layoutStyles from "./layout.module.scss"
 
 const Layout = props => {
-    return <div className={layoutStyles.container}>{props.children}</div>
+    return (
+        <div className={layoutStyles.container}>
+            {props.children}
+        </div>
+    )
 }
 
 export default Layout

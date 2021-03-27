@@ -13,14 +13,14 @@
     align-items: center;
     padding: 0px;
 
-    width: 800px;
+    width: 85%;
 
     margin: 20px auto 50px;
     top: 44px;
 
-    @media (max-width: 978px) {
-        width: 660px;
-    }
+    // @media (max-width: 978px) {
+    //     width: 660px;
+    // }
 
     .header {
         display: flex;
@@ -47,6 +47,7 @@
         flex-direction: column;
         align-items: center;
         padding: 0px;
+
         width: 100%;
 
         margin: 31px 0;
@@ -56,13 +57,18 @@
         width: 100%;
         display: flex;
         flex-direction: row;
+        justify-content: center;
         padding: 0;
 
-        overflow-x: scroll;
+        overflow-x: auto;
 
         > * {
             flex: none;
             margin: 20px;
+        }
+
+        @media (max-width: 1280px) {
+            justify-content: flex-start;
         }
     }
 }

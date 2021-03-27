@@ -1,0 +1,42 @@
+@import "@styles/variables";
+
+.container {
+    width: 100%;
+    overflow: auto;
+
+    background: $color-primary-light;
+}
+
+.innerContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+
+    width: 85%;
+
+    margin: 20px auto 50px;
+    top: 44px;
+
+    @media (max-width: 978px) {
+        width: 660px;
+    }
+
+    h2 {
+        width: 100%;
+        text-align: center;
+
+        margin: 24px 0;
+    }
+
+    .horizontalFlex {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+
+        > * {
+            margin: 10px;
+        }
+    }
+}
