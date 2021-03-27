@@ -30,8 +30,8 @@ const ResumeSection = () => {
                         2008.
                     </ResumeCard>
                     <ResumeCard icon="teacher">
-                        Professor e Pesquisador da Faculdade de Ciências Médicas da Pontifícia Universidade Católica
-                        de São Paulo (PUC-SP).
+                        Professor e Pesquisador da Faculdade de Ciências Médicas da Pontifícia Universidade Católica de
+                        São Paulo (PUC-SP).
                     </ResumeCard>
                 </div>
             </div>

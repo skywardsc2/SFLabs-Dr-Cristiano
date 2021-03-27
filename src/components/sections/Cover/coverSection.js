@@ -7,12 +7,14 @@ import Button from "@components/Button/button"
 const CoverSection = () => {
     return (
         <section className={coverSectionStyles.container}>
-            <header className={coverSectionStyles.header}>
-                <div className={coverSectionStyles.title}>
-                    <h1 className={coverSectionStyles.thin}>Dr. </h1>
-                    <h1>Cristiano Barcellos</h1>
+            <header>
+                <div>
+                    <div className={coverSectionStyles.name}>
+                        <h1 className={coverSectionStyles.thin}>Dr. </h1>
+                        <h1>Cristiano Barcellos</h1>
+                    </div>
+                    <h2>Endocrinologia e Metabologia</h2>
                 </div>
-                <h2>Endocrinologia e Metabologia</h2>
                 <Button onClick={() => {}}>AGENDAR CONSULTA</Button>
             </header>
         </section>

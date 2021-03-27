@@ -9,7 +9,7 @@ import * as navBarStyles from "./navBar.module.scss"
 
 const NavBar = () => {
     return (
-        <header className={navBarStyles.header}>
+        <header className={navBarStyles.container}>
             <div className={navBarStyles.innerHeader}>
                 <Link to="/">
                     <img className={navBarStyles.navBarLogo} src={logoImg} alt="Doctor's logo" />

@@ -22,21 +22,21 @@ const AboutSection = () => {
                     <h3>Algumas doenças causadas por alterações hormonais:</h3>
                     <div className={aboutSectionStyles.cardContainer}>
                         <DiseaseCard title="Diabetes">
-                            Qualquer alteração na produção da insulina provoca o excesso de açúcar no sangue,
-                            podendo caracterizar, assim, a diabetes. Se existe histórico familiar, ou se você
-                            observar que está com muita sede, vontade de fazer xixi ou perda de peso aparente e sem
-                            motivo, é hora de procurar o Endocrinologista.
+                            Qualquer alteração na produção da insulina provoca o excesso de açúcar no sangue, podendo
+                            caracterizar, assim, a diabetes. Se existe histórico familiar, ou se você observar que está
+                            com muita sede, vontade de fazer xixi ou perda de peso aparente e sem motivo, é hora de
+                            procurar o Endocrinologista.
                         </DiseaseCard>
                         <DiseaseCard title="Disfunções tireoidianas">
                             Disfunções na tireoide são também muito comuns nos consultórios endocrinológicos. O
-                            hipertireoidismo é decorrente do funcionamento excessivo da tireoide; já o
-                            hipotireoidismo ocorre quando há a produção insuficiente de hormônios.
+                            hipertireoidismo é decorrente do funcionamento excessivo da tireoide; já o hipotireoidismo
+                            ocorre quando há a produção insuficiente de hormônios.
                         </DiseaseCard>
                         <DiseaseCard title="Obesidade">
                             Em sua maioria, os casos de obesidade são causados pela má alimentação ou falta de
                             exercícios físicos. Acontece que algumas pessoas podem estar com distúrbios hormonais e,
-                            então, acabam por não conseguir perder peso. Neste caso, o médico Endocrinologista fará
-                            as investigações necessárias para descobrir porque seu organismo não está “funcionando
+                            então, acabam por não conseguir perder peso. Neste caso, o médico Endocrinologista fará as
+                            investigações necessárias para descobrir porque seu organismo não está “funcionando
                             corretamente”.
                         </DiseaseCard>
                     </div>

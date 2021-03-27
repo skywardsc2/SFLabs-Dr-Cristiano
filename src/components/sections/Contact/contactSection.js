@@ -1,12 +1,12 @@
 import React from "react"
 
 //Images
-import mapMock from '@images/map.png'
+import mapMock from "@images/map.png"
 
 import "@styles/global.scss"
 import * as contactSectionStyles from "./contactSection.module.scss"
 
-import ContactCard from '@components/ContactCard/contactCard'
+import ContactCard from "@components/ContactCard/contactCard"
 
 const ContactSection = () => {
     return (
@@ -15,7 +15,7 @@ const ContactSection = () => {
                 <h2>CONTATO</h2>
                 <div className={contactSectionStyles.horizontalFlex}>
                     <ContactCard />
-                    <img src={mapMock} alt="Mapa do apontando para o endereço da clínica"/>
+                    <img src={mapMock} alt="Mapa do apontando para o endereço da clínica" />
                 </div>
             </div>
         </section>

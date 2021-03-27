@@ -41,6 +41,11 @@
         flex: none;
         flex-grow: 0;
         margin: 24px 0px;
+
+        // @media (max-width: 414px) {
+        //     width: 100px;
+        //     height: 100px;
+        // }
     }
 
     .cardContainer {

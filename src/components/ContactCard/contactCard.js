@@ -4,9 +4,9 @@ import "@styles/global.scss"
 import * as contactCardStyles from "./contactCard.module.scss"
 
 // Images
-import IconAddress from '@images/svg/iconAddress.inline.svg'
-import IconClock from '@images/svg/iconClock.inline.svg'
-import IconWhatsapp from '@images/svg/iconWhatsapp.inline.svg'
+import IconAddress from "@images/svg/iconAddress.inline.svg"
+import IconClock from "@images/svg/iconClock.inline.svg"
+import IconWhatsapp from "@images/svg/iconWhatsapp.inline.svg"
 import logoImg from "@images/logo_img.png"
 
 const ContactCard = () => {
@@ -17,7 +17,7 @@ const ContactCard = () => {
                     <h1>Dr. Cristiano Barcellos</h1>
                     <h2>Endocrinologia e Metabologia</h2>
                 </div>
-                <img src={logoImg} alt="Logo do Dr. Cristiano"/>
+                <img src={logoImg} alt="Logo do Dr. Cristiano" />
             </header>
             <main>
                 <div className={contactCardStyles.info}>
@@ -26,7 +26,7 @@ const ContactCard = () => {
                 </div>
                 <div className={contactCardStyles.info}>
                     <IconClock className={contactCardStyles.icon} />
-                    <p>09:00 -  18:00 de Seg. a Sex.</p>
+                    <p>09:00 - 18:00 de Seg. a Sex.</p>
                 </div>
                 <div className={contactCardStyles.info}>
                     <IconWhatsapp className={contactCardStyles.icon} />

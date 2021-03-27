@@ -5,7 +5,7 @@ import * as buttonStyles from "./button.module.scss"
 const Button = props => {
     return (
         <button onClick={props.onClick} className={buttonStyles.button}>
-            <p className={buttonStyles.label}>{props.children}</p>
+            <div className={buttonStyles.label}>{props.children}</div>
         </button>
     )
 }
