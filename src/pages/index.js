@@ -9,6 +9,8 @@ import AboutSection from "@components/sections/About/aboutSection"
 import ContactSection from "@components/sections/Contact/contactSection"
 import Footer from "@components/Footer/footer"
 
+
+
 const IndexPage = () => {
     return (
         <div>
